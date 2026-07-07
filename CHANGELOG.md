@@ -8,6 +8,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Please add your functional changes to the appropriate section in the PR.
 Keep it human-readable, your future self will thank you!
 
+## [0.5.41](https://github.com/ecmwf/anemoi-datasets/compare/0.5.40...0.5.41) (2026-07-07)
+
+
+### Features
+
+* Add consistency check for tabular ([#687](https://github.com/ecmwf/anemoi-datasets/issues/687)) ([2b4db63](https://github.com/ecmwf/anemoi-datasets/commit/2b4db63dc239972c456a2b876de01f6e804296d1))
+* Deprecation warning for group by instead of silent ignore ([#682](https://github.com/ecmwf/anemoi-datasets/issues/682)) ([f997ea3](https://github.com/ecmwf/anemoi-datasets/commit/f997ea3ffa07d05064b35c49f1feee071b701adf))
+* Do not mutate source_config in bufr ([#683](https://github.com/ecmwf/anemoi-datasets/issues/683)) ([9815ca5](https://github.com/ecmwf/anemoi-datasets/commit/9815ca5c2dc4d280405a73a179f35c2b176d6bd1))
+* Improve memory for trajectories dataset building ([#693](https://github.com/ecmwf/anemoi-datasets/issues/693)) ([5ecabf0](https://github.com/ecmwf/anemoi-datasets/commit/5ecabf0aeb46b811c257e80e594b60aeab4ea341))
+* Use group_by 1 for trajectories by default ([#676](https://github.com/ecmwf/anemoi-datasets/issues/676)) ([6f6e964](https://github.com/ecmwf/anemoi-datasets/commit/6f6e964c14c78caa062726d670e1f3ab2b8aee0e))
+
+
+### Bug Fixes
+
+* Pass options as kwarg in usage/_open ([#690](https://github.com/ecmwf/anemoi-datasets/issues/690)) ([eff502e](https://github.com/ecmwf/anemoi-datasets/commit/eff502e46fd81f210e958866cc58e620894e19eb))
+* Release rolling average assumption. ([#678](https://github.com/ecmwf/anemoi-datasets/issues/678)) ([a86df41](https://github.com/ecmwf/anemoi-datasets/commit/a86df41f5c0db5b1d2376743e9da1a2635e6495e))
+
 ## [0.5.40](https://github.com/ecmwf/anemoi-datasets/compare/0.5.39...0.5.40) (2026-06-22)
 
 
